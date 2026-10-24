@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <header class="header">
+       <div class="menu container">
+            <a href="#" class="logo">Logo</a>
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="Imagenes/Fe y alegria.jpg" class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Producto</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+
+            <ul>
+                 <li class="submenu">
+                    <img src="Imagenes/carr.svg" id="img-carrito" alt="carrito">
+                    <div id="carrito">
+                         <table id="lista-carrito">
+                             <thead>
+                                 <tr>
+                                      <th>Imagen</th>
+                                      <th>Nombre</th>
+                                       <th>Precio</th>
+                                       <th>Cantidad</th>
+                                       <th>Subtotal</th>
+                                       <th></th>
+                                </tr>
+                             </thead>
+                              <tbody></tbody>
+                              <tfoot>
+                                 <tr>
+                                     <td colspan="4"><strong>Total:</strong></td>
+                                     <td colspan="2">
+                                         <strong id="total-carrito">Bs 0.00</strong>
+                                     </td>
+                                 </tr>
+                              </tfoot>
+                          </table>
+                        <a href="#" id="vaciar-carrito" class="btn-2">Vaciar Carrito</a>
+                     </div>
+                  </li>
+             </ul>
+         </div>
+
+         <div class="header-content container">
+
+            <div class="header-txt">
+                <h1> <span>Bienvenidos</span> disfruta de nuestros platillos </h1>
+                <p>
+                    Disfruta de una experiencia llena de sabor, con platillos preparados con amor e ingredientes frescos, ideales para compartir momentos especiales y deleitar tu paladar. ¡Estamos felices de recibirte! 
+                </p>    
+                <a href="#" class="btn-1">Informacion</a>
+            </div>
+            <div class="header-img">
+                <img src="Imagenes/Logo2.jpg" alt="">
+            </div>
+
+        </div>
+
+    </header>
+
+    <main class="products container" id="lista-1">      
+        <h2>Entrada</h2>
+        <div class="products-content">
+
+            <div class="product">
+                <img src="Imagenes/sopademani.jpg" alt="">
+                <div class="product-txt">
+                    <h3>Producto</h3>
+                    <p class="precio">10bs</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar</a>
+                </div>
+            </div>
+        </div>    
+
+        <h2>Plato principal</h2>
+        <div class="products-content">
+
+            <div class="product">
+                <img src="Imagenes/majadito.jpg" alt="">
+                <div class="product-txt">
+                    <h3>Producto</h3>
+                    <p class="precio">10bs</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="2">Agregar</a>
+                </div>
+            </div>
+        
+            <div class="product">               
+                <img src="Imagenes/silpancho.jpg" alt="">
+                <div class="product-txt">
+                    <h3>Producto</h3>
+                    <p class="precio">10bs</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="3">Agregar</a>
+                </div>
+            </div>
+        </div>   
+   
+        <h2>Postres</h2>
+        <div class="products-content">
+            <div class="product">
+                <img src="Imagenes/salteñas.jpg" alt="">
+                <div class="product-txt">
+                    <h3>Producto</h3>
+                    <p class="precio">10bs</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="4">Agregar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="Imagenes/empanadas.jpg" alt="">
+                <div class="product-txt">
+                    <h3>Producto</h3>
+                    <p class="precio">10bs</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="Imagenes/sonso.jpg" alt="">
+                <div class="product-txt">
+                    <h3>Producto</h3>
+                    <p class="precio">10bs</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="6">Agregar</a>
+                </div>
+            </div>
+        </div>
+     
+        <h2>Bebidas</h2>
+        <div class="products-content">
+            <div class="product">
+                <img src="Imagenes/mocochinchi.jpg" alt="">
+                <div class="product-txt">
+                    <h3>Producto</h3>
+                    <p class="precio">10bs</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="7">Agregar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="Imagenes/chicha.jpg" alt="">
+                <div class="product-txt">
+                    <h3>Producto</h3>
+                    <p class="precio">10bs</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="8">Agregar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="Imagenes/chichamorada.jpg" alt="">
+                <div class="product-txt">
+                    <h3>Producto</h3>
+                    <p class="precio">10bs</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="9">Agregar</a>
+                </div>
+            </div> 
+        </div>
+
+    </main>
+
+
+    
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
